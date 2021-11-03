@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#head{
+    font-size: 3em;
+    color: rgb(0, 248, 227);
+    margin:10px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#email {
+  background: none;
+  padding: 1px 10px;
+  font-size: 20px;
+  color: #0d53d3;
+  margin: 5px -61px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid purple;
+  border-radius: 30px;
+  height: 40px;
+  width: 350px;
+}
+#pass{
+    background:none;
+    font-size: 20px;
+    color:rgb(13, 83, 211);
+    padding: 1px 10px;
+    margin:5px -61px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid purple;
+    border-radius: 30px;
+    height:40px;
+    width: 350px;
+}
+.btn{
+    margin: auto; 
+    color:rgb(10, 108, 199);
+    background:none;
+    font-size: 20px;
+    border: 2px solid rgb(6, 172, 194);
+    padding:10px 20px;
+    border-radius: 35px;
+    margin:10px 10px;
+    transition: all 0.2s ease-out;
+}
+.btn:hover{
+    cursor: pointer;
+    color:rgb(20, 113, 220);
+    transform: scale(1.1);
+}
+#pos{
+  position: absolute;
+  bottom: 72.5%;
+  left: 61%;
+}
+#insert{
+  margin:3px 5px;
+  color: crimson;
+}

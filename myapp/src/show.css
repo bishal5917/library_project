@@ -1,0 +1,45 @@
+.showingdata{
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px 5px;
+}
+#tableid{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:20px 5px;
+}
+.tdata{
+    width:150px;
+    border-bottom: 2px solid rgb(0, 17, 255);
+    /* margin:50px; */
+    color:rgb(0, 153, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.data{
+    width:150px;
+    /* border:2px solid red; */
+    font-size: 20px;
+   
+}
+#delbutton{
+    color:rgb(6, 87, 83);
+    background:none;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 0, 0);
+    padding:10px 40px;
+    border-radius: 35px;
+    /* background-color: darkcyan; */
+    margin:10px 10px;
+    transition: all 0.2s ease-out;
+}
+#delbutton:hover{
+    cursor: pointer;
+    color:rgb(20, 113, 220);
+    transform: scale(1.03);
+}
+/* table{
+    border-collapse: collapse;
+} */
